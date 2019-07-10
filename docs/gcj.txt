@@ -1,0 +1,4 @@
+1、约定 > 配置 > 编码
+2、安装 lombok 插件
+3、maven intall 发布项目 jar 包到本地maven库
+4、RestTemplate：rest 远程调用模版
