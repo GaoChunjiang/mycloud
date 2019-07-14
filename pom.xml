@@ -16,6 +16,8 @@
         <module>mycloud-eureka-7001</module>
         <module>mycloud-eureka-7002</module>
         <module>mycloud-eureka-7003</module>
+        <module>mycloud-provider-dept-8002</module>
+        <module>mycloud-provider-dept-8003</module>
     </modules>
 
     <properties>
@@ -29,8 +31,8 @@
         <eureka.server.version>1.4.6.RELEASE</eureka.server.version>
         <eureka.version>1.4.6.RELEASE</eureka.version>
         <starter.config.version>2.1.2.RELEASE</starter.config.version>
+        <ribbon.version>1.2.4.RELEASE</ribbon.version>
     </properties>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
