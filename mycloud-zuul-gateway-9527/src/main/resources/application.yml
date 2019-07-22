@@ -1,0 +1,27 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: mycloud-zuul-gateway
+
+zuul:
+  prefix: /gcj  # 统一的公共前缀
+  ignored-services: "*" # 禁用所有服务 "*" ，单个禁用直接输入服务名即可
+  routes:  # 路由映射
+    mydept.serviceId: mycloud-dept
+    mydept.path: /mydept/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: gateway-9527.com  # 微服务实例名称
+    prefer-ip-address: true  # 实例名称的链接是否显示IP
+
+info:  # 关于信息完善
+  app.name: gcj-mycloud
+  company.name: www.gcj.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

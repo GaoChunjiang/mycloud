@@ -11,6 +11,7 @@
 
     <modules>
         <module>mycloud-api</module>
+        <module>mycloud-api-hystrix</module>
         <module>mycloud-provider-dept-8001</module>
         <module>mycloud-consumer-dept-80</module>
         <module>mycloud-eureka-7001</module>
@@ -20,6 +21,9 @@
         <module>mycloud-provider-dept-8003</module>
         <module>mycloud-consumer-dept-feign</module>
         <module>mycloud-provider-dept-hystrix-8001</module>
+        <module>mycloud-consumer-hystrix-dashboard</module>
+        <module>mycloud-zuul-gateway-9527</module>
+        <module>mycloud-config-3344</module>
     </modules>
 
     <properties>
@@ -36,6 +40,8 @@
         <ribbon.version>1.2.4.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
+        <hystrix.dashboard.version>1.4.6.RELEASE</hystrix.dashboard.version>
+        <zuul.version>1.4.6.RELEASE</zuul.version>
     </properties>
     <dependencyManagement>
         <dependencies>
