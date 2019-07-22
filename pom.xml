@@ -19,6 +19,8 @@
         <module>mycloud-provider-dept-8002</module>
         <module>mycloud-provider-dept-8003</module>
         <module>mycloud-consumer-dept-feign</module>
+        <module>mycloud-provider-dept-hystrix-8001</module>
+        <module>mycloud-consumer-hystrix-dashboard</module>
     </modules>
 
     <properties>
@@ -34,6 +36,8 @@
         <starter.config.version>2.1.2.RELEASE</starter.config.version>
         <ribbon.version>1.2.4.RELEASE</ribbon.version>
         <feign.version>1.4.6.RELEASE</feign.version>
+        <hystrix.version>1.4.6.RELEASE</hystrix.version>
+        <hystrix.dashboard.version>1.4.6.RELEASE</hystrix.dashboard.version>
     </properties>
     <dependencyManagement>
         <dependencies>
