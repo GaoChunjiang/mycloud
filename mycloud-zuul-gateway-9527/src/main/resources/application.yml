@@ -5,6 +5,13 @@ spring:
   application:
     name: mycloud-zuul-gateway
 
+zuul:
+  prefix: /gcj  # 统一的公共前缀
+  ignored-services: "*" # 禁用所有服务 "*" ，单个禁用直接输入服务名即可
+  routes:  # 路由映射
+    mydept.serviceId: mycloud-dept
+    mydept.path: /mydept/**
+
 eureka:
   client:
     service-url:
