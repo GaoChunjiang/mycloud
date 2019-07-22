@@ -23,6 +23,7 @@
         <module>mycloud-provider-dept-hystrix-8001</module>
         <module>mycloud-consumer-hystrix-dashboard</module>
         <module>mycloud-zuul-gateway-9527</module>
+        <module>mycloud-config-3344</module>
     </modules>
 
     <properties>
