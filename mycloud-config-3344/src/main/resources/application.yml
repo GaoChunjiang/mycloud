@@ -8,7 +8,4 @@ spring:
     config:
       server:
         git:
-          #uri: git@github.com:GaoChunjiang/mycloud-config.git
           uri: https://github.com/GaoChunjiang/mycloud-config.git
-          username: GaoChunjiang
-          password: 1
