@@ -25,6 +25,8 @@
         <module>mycloud-zuul-gateway-9527</module>
         <module>mycloud-config-3344</module>
         <module>mycloud-config-client-3355</module>
+        <module>mycloud-config-eureka-client-7001</module>
+        <module>mycloud-config-dept-client-8001</module>
     </modules>
 
     <properties>
