@@ -14,14 +14,5 @@ zuul:
 
 eureka:
   client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
-  instance:
-    instance-id: gateway-9527.com  # 微服务实例名称
-    prefer-ip-address: true  # 实例名称的链接是否显示IP
-
-info:  # 关于信息完善
-  app.name: gcj-mycloud
-  company.name: www.gcj.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+    register-with-eureka: false  #false表示不向注册中心注册自己
+    fetch-registry: false  #false表示不需要取检索服务

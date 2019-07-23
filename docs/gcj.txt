@@ -2,8 +2,8 @@
 2、安装 lombok 插件
 3、maven intall 发布项目 jar 包到本地maven库
 4、RestTemplate：rest 远程调用模版
-
-
+5、ssh 方式连接 github ，生成KEY：ssh-keygen -t rsa ，复制 id_rsa.pub 内容到 github 添加 ssh key （setting - SSH and GPG keys - New SSH key）。
+6、springCloud config 配置访问 http://config-3344.com:3344/master/application-dev.yml
 
 */drivers/ect/hosts
 --------------------------------------

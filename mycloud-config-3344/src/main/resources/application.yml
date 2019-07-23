@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: mycloud-config
+  cloud:
+    config:
+      server:
+        git:
+          #uri: git@github.com:GaoChunjiang/mycloud-config.git
+          uri: https://github.com/GaoChunjiang/mycloud-config.git
+          username: GaoChunjiang
+          password: 1
